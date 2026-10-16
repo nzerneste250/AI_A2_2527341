@@ -1,0 +1,38 @@
+{
+  "silhouette_scores": {
+    "2": 0.1576056623918534,
+    "3": 0.13954668633410822,
+    "4": 0.13474765149867396,
+    "5": 0.1361784050369283,
+    "6": 0.14136114845562145
+  },
+  "selected_k": 2,
+  "profiles": {
+    "0": {
+      "size": 124,
+      "means": {
+        "rainfall_mm": 1012.733,
+        "avg_temp_c": 18.87,
+        "soil_moisture_pct": 51.035,
+        "fertilizer_kg": 140.999,
+        "field_size_ha": 2.074,
+        "cooperative_support": 0.0
+      },
+      "interpretation": "Descriptive input profile; overall K=2 separation is weak separation. Cluster IDs have no inherent rank."
+    },
+    "1": {
+      "size": 118,
+      "means": {
+        "rainfall_mm": 1001.948,
+        "avg_temp_c": 18.494,
+        "soil_moisture_pct": 49.715,
+        "fertilizer_kg": 119.788,
+        "field_size_ha": 2.15,
+        "cooperative_support": 1.0
+      },
+      "interpretation": "Descriptive input profile; overall K=2 separation is weak separation. Cluster IDs have no inherent rank."
+    }
+  },
+  "interpretation_note": "Profiles are descriptive averages of permitted input features; they do not establish causal or quality rankings.",
+  "verification_code": "AI-A2-7341"
+}

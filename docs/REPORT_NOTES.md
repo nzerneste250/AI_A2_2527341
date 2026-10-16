@@ -1,0 +1,2 @@
+﻿# Report preparation notes
+Write the required five-to-seven-page PDF from the actual JSON and CSV artifacts: identity, decision problem, reproducibility, the shared stratified split, training-only five-fold selection, leakage controls, final held-out regression/classification results, clustering and its weak silhouette separation, API/testing, model card, limitations, and reflection. The student must personally verify and individualize all interpretations before producing `AI_A2_2527341_REPORT.pdf`.

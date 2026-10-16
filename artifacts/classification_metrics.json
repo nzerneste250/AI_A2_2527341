@@ -1,0 +1,88 @@
+{
+  "selection_method": "5-fold stratified training-only cross-validation",
+  "validation_scores": {
+    "DummyClassifier": {
+      "f1_mean": 0.0,
+      "f1_std": 0.0,
+      "precision_mean": 0.0,
+      "recall_mean": 0.0,
+      "roc_auc_mean": 0.5
+    },
+    "LogisticRegression": {
+      "f1_mean": 0.9275762393409451,
+      "f1_std": 0.05198936070262315,
+      "precision_mean": 0.9472222222222222,
+      "recall_mean": 0.9163157894736843,
+      "roc_auc_mean": 0.9877008310249307
+    },
+    "RandomForestClassifier": {
+      "f1_mean": 0.9374088374088375,
+      "f1_std": 0.048084116510571435,
+      "precision_mean": 0.9505050505050505,
+      "recall_mean": 0.9268421052631577,
+      "roc_auc_mean": 0.9816759002770082
+    }
+  },
+  "selected_model": "RandomForestClassifier",
+  "final_test_metrics": {
+    "DummyClassifier": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "confusion_matrix": [
+        [
+          24,
+          0
+        ],
+        [
+          25,
+          0
+        ]
+      ],
+      "roc_auc": 0.5
+    },
+    "LogisticRegression": {
+      "precision": 0.9230769230769231,
+      "recall": 0.96,
+      "f1": 0.9411764705882353,
+      "confusion_matrix": [
+        [
+          22,
+          2
+        ],
+        [
+          1,
+          24
+        ]
+      ],
+      "roc_auc": 0.9966666666666666
+    },
+    "RandomForestClassifier": {
+      "precision": 0.9259259259259259,
+      "recall": 1.0,
+      "f1": 0.9615384615384616,
+      "confusion_matrix": [
+        [
+          22,
+          2
+        ],
+        [
+          0,
+          25
+        ]
+      ],
+      "roc_auc": 0.9791666666666667
+    }
+  },
+  "confusion_matrix": [
+    [
+      22,
+      2
+    ],
+    [
+      0,
+      25
+    ]
+  ],
+  "verification_code": "AI-A2-7341"
+}

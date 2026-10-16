@@ -1,0 +1,42 @@
+{
+  "selection_method": "5-fold shuffled training-only cross-validation",
+  "validation_scores": {
+    "DummyRegressor": {
+      "rmse_mean": 2.598065207174234,
+      "rmse_std": 0.136962945809818,
+      "mae_mean": 2.1286707549865005,
+      "r2_mean": -0.024073688765619126
+    },
+    "LinearRegression": {
+      "rmse_mean": 0.9138705810309652,
+      "rmse_std": 0.07849522280313839,
+      "mae_mean": 0.7271150492370391,
+      "r2_mean": 0.8736952702990107
+    },
+    "RandomForestRegressor": {
+      "rmse_mean": 1.3826602758592625,
+      "rmse_std": 0.06671162414395033,
+      "mae_mean": 1.1052507425844376,
+      "r2_mean": 0.7077109484780795
+    }
+  },
+  "selected_model": "LinearRegression",
+  "final_test_metrics": {
+    "DummyRegressor": {
+      "mae": 1.7906369384224219,
+      "rmse": 2.285552789655612,
+      "r2": -0.005406370637666358
+    },
+    "LinearRegression": {
+      "mae": 0.7048078491477393,
+      "rmse": 0.887640613290911,
+      "r2": 0.8483531306520699
+    },
+    "RandomForestRegressor": {
+      "mae": 1.0043657980555207,
+      "rmse": 1.234425911982128,
+      "r2": 0.706715454694786
+    }
+  },
+  "verification_code": "AI-A2-7341"
+}
